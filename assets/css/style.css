@@ -1,0 +1,182 @@
+
+.header {
+    background: linear-gradient(180deg, #f53f2d, #fe6332);
+    height: 120px;
+}
+
+.header {
+
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__navbar-list {
+    padding-left: 0;
+
+}
+
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+    min-height: 26px;
+    font-size: 0.9rem;
+}
+
+
+.header__navbar-item,
+.header__navbar-link,
+.header__navbar-link-icon {
+    display: inline-flex;
+    color: var(--white-color);
+    text-decoration: none;
+    font-weight: 300;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.header__navbar-link > i {
+    padding: 0 4px;
+}
+
+.header__navbar-item:hover,
+.header__navbar-link:hover {
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+
+}
+
+.header__navbar-label {
+    color: var(--white-color);
+}
+
+.header__navbar-link-icon {
+    display: inline-flex;
+
+}
+
+.header__navbar-icon {
+    font-size: 1.2rem;
+}
+
+
+.navbar__navbar-item--separate::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background-color: #fa745d;
+    right: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 20px;
+}
+
+.header__navbar-link--bold {
+    font-weight: 500;
+}
+
+.header__navbar-downloads:hover > .header__navbar-qr {
+    display: block;
+}
+
+.header__navbar-qr {
+    display: none;
+    position: absolute;
+    top: calc(1.5rem + 1rem);
+    left: 0;
+    animation: fadeIn ease-in-out 0.3s;
+}
+
+.header__navbar-qr::before {
+    position: absolute;
+    top: -1rem;
+    content: '';
+    height: 1rem;
+    width: 100%;
+    display: block;
+}
+
+.header__navbar-qr-downloads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.header__navbar-app-img {
+    margin-bottom: 10px;
+    width: calc(50% - 12px);
+    object-fit: contain;
+}
+
+.header__navbar-qrcode-img {
+    width: 190px;
+    height: 190px;
+}
+
+.header__notify {
+    background-color: #e3dbdb;
+    top: 1.5rem;
+    right: 0;
+    position: absolute;
+    width: 400px;
+    border-radius: 2px;
+
+
+}
+
+.header__notify-label {
+    color: rgba(0,0,0,.26);
+
+}
+
+.header__notify-list {
+    padding-left: 0;
+
+}
+
+.header__notify-item {
+    display: flex;
+
+}
+
+.header__notify-img {
+
+}
+.header__notify-avatar {
+    width: 100px;
+    object-fit: contain;
+
+}
+
+.header__notify-content {
+    flex: 1;
+
+}
+
+.header__notify-name {
+
+}
+.header__notify-description {
+
+}
+
+.header__notify-more {
+    display: flex;
+    justify-content: center;
+    height: 1.5r em;
+}
+
+
+.container {
+
+}
+
+.footer {
+
+}
+
